@@ -19,6 +19,7 @@
         min-height: 100vh;
         height: 100%;
         width: 100%;
+        margin-bottom: -5px;
     }
     &__slider-item--1 {
         background-image: url(../images/header.jpg);
@@ -52,6 +53,8 @@
     }
     &__main {
         padding-top: 161px;
+        position: absolute;
+        z-index: 999;
     }
     &__main-title {
         font-size: 60px;
